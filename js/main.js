@@ -5,23 +5,23 @@ let numero = "";
 let ultimoDigito = "";
 
 
-function operador(num){
+function operador(num) {
     numero = numero + num;
 
     parcial = parcial + num;
 
     operRealizada.innerHTML = parcial;
-    if(numero == '0' && operadorSeleccionado == '/'){
+    if (numero == '0' && operadorSeleccionado == '/') {
         limpiar();
         txtResul.innerHTML = "Indefinido";
         return;
     }
-    if(ultimoDigito = 'operacion'){
+    if (ultimoDigito = 'operacion') {
         ultimoDigito = 'numero'
     }
 }
 
-function operacion(oper){
+function operacion(oper) {
     operadorSeleccionado = oper;
     ultimoDigito = 'operacion';
     parcial = parcial + oper;
@@ -29,7 +29,7 @@ function operacion(oper){
     operRealizada.innerHTML = parcial;
 }
 
-function calculo(){
+function calculo() {
     parcial = eval(parcial);
     parcial = parcial.toString();
     numero = "";
@@ -38,7 +38,7 @@ function calculo(){
 
 
 
-function limpiar(){
+function limpiar() {
     operadorSeleccionado = "";
     parcial = "";
     numero = "";

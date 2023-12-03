@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.contenedor{
+.contenedor {
     width: fit-content;
     margin: 50px auto;
     border: 1px solid #000;
@@ -13,7 +13,7 @@
     background-color: rgb(0, 0, 240);
 }
 
-.tecla{
+.tecla {
     width: 80px;
     height: 80px;
     margin: 3px;
@@ -24,12 +24,12 @@
     transition: .3s;
 }
 
-.tecla:hover{
+.tecla:hover {
     background-color: #000;
     color: #fff;
 }
 
-#operacionRealizada{
+#operacionRealizada {
     background-color: #ccc;
     padding: 3px;
     text-align: right;
@@ -39,7 +39,7 @@
     border: 1px solid #fff;
 }
 
-#txtResultado{
+#txtResultado {
     height: 80px;
     border: 1px solid #ddd;
     margin: 10px 0;
@@ -50,4 +50,3 @@
     padding: 0 10px;
     background-color: #fff;
 }
-
