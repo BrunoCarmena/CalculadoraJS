@@ -13,7 +13,7 @@ function operador(num) {
     operRealizada.innerHTML = parcial;
     if (numero == '0' && operadorSeleccionado == '/') {
         limpiar();
-        txtResul.innerHTML = "Indefinido";
+        operRealizada.innerHTML = "Indefinido";
         return;
     }
     if (ultimoDigito = 'operacion') {
